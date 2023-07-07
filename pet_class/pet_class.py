@@ -38,3 +38,5 @@ class Pet:
         self.__age = age
     
     # get age of the pet
+    def age_get(self):
+        return self.__age
