@@ -22,7 +22,9 @@ def main():
     user_pet.age_set(age)
 
     # displays the pet details via output
-    print("Your pet's name:", pet.name_get())
-    print("Your pet's kind:", pet.kind_get())
-    print("Your pet's age:", pet.age_get())
+    print("Your pet's name:", user_pet.name_get())
+    print("Your pet's kind:", user_pet.kind_get())
+    print("Your pet's age:", user_pet.age_get())
     
+# run code
+main()
