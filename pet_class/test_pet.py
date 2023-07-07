@@ -6,9 +6,14 @@
 # PSEUDOCODE
 
 # import pet from pet_class
+from pet_class import Pet
+def main():
+    # create a pet object 
+    user_pet = Pet()
 
-# create a pet object 
+    # ask user for input regarding the details of the pet
+    name = input(str("What is your pet's name? : "))
+    user_pet.name_set(name)
 
-# ask user for input regarding the details of the pet
 
 # displays the pet details via output
