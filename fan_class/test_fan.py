@@ -6,7 +6,7 @@
 # PSEUDOCODE
 
 # import class
-from fan_class.fan_class import Fan
+from fan_class import Fan
 
 # defining main method
 def main():
@@ -30,3 +30,5 @@ def main():
     print("Fan Radius:", fan2.radius_get())
     print("Fan Color:", fan2.color_get())
     print("On:", fan2.is_on())
+
+    main()
