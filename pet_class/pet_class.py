@@ -18,8 +18,10 @@ class Pet:
     # set name of the pet
     def name_set(self, name):
         self.__name = name
-        
-# get name of the pet
+
+    # get name of the pet
+    def name_get(self):
+        return self.__name
 
 # specifying the kind of  pet
 # set kind of pet
