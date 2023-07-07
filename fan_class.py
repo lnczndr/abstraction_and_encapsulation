@@ -20,6 +20,7 @@ class Fan:
         self.__radius = radius
         self.__color = color
 
+    # implementing getter and setter for four data fields
     # specifying fan speed
     # setting the speed of the fan
     def speed_set (self, speed):
@@ -51,5 +52,4 @@ class Fan:
     def color_get(self):
         return self.__color
     
-    # implementing getter and setter for four data fields
 
