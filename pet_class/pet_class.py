@@ -23,8 +23,12 @@ class Pet:
     def name_get(self):
         return self.__name
 
-# specifying the kind of  pet
-# set kind of pet
+    # specifying the kind of  pet
+    # set kind of pet
+    def kind_set(self, animal_kind):
+        self.__animal_kind = animal_kind
+    
+
 # get kimd of pet
 
 # specifying the age of the pet
