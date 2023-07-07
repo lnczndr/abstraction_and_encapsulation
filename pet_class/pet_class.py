@@ -32,6 +32,9 @@ class Pet:
     def kind_get(self):
         return self.__animal_kind
 
-# specifying the age of the pet
-# set age of the pet
-# get age of the pet
+    # specifying the age of the pet
+    # set age of the pet
+    def age_set(self, age):
+        self.__age = age
+    
+    # get age of the pet
