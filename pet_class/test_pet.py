@@ -18,7 +18,9 @@ def main():
     animal_kind = input(str("What kind of pet do you have? : "))
     user_pet.kind_set(animal_kind)
 
-    
+    age = input(str("What is the age of your pet? : "))
+    user_pet.age_set(age)
+
 
 
 # displays the pet details via output
