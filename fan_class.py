@@ -43,6 +43,13 @@ class Fan:
         return self.__radius
 
     # specifying the color of the fan
+    # setting the color of the fan
+    def color_set(self, color):
+        self.__color = color
 
+    # getting the color of the fan
+    def color_get(self):
+        return self.__color
+    
     # implementing getter and setter for four data fields
 
