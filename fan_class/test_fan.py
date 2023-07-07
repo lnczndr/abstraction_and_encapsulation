@@ -31,4 +31,5 @@ def main():
     print("Fan Color:", fan2.color_get())
     print("On:", fan2.is_on())
 
-    main()
+# runs the code
+main()
