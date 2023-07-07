@@ -7,14 +7,24 @@
 
 # import Car from car_class
 from car_class import Car
+import time
 
 # create a test car object
 def CarClass():
-    carObject=Car(2022, BMW)
+    carObject=Car(2022, "BMW")
+
+    # accelerate five times, while displaying speed
     for i in range(5):
+        time.sleep(0.4)
         carObject.accelerate()
         print("Car accelerating... | Current Speed:", carObject.speed_get())
 
-# accelerate five times, while displaying speed
+    print("\n")
 
-# brake five times, while displaying speed
+    # brake five times, while displaying speed
+    for i in range(5):
+        time.sleep(0.4)
+        carObject.brake()
+        print("Braking... | Current Speed:", carObject.speed_get())
+
+CarClass()
