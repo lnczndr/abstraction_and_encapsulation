@@ -10,7 +10,7 @@ from car_class import Car
 import time
 
 # create a test car object
-def CarClass():
+def main():
     carObject=Car(2022, "BMW")
 
     # accelerate five times, while displaying speed
@@ -28,4 +28,4 @@ def CarClass():
         print("Braking... | Current Speed:", carObject.speed_get())
 
 # run program
-CarClass()
+main()
