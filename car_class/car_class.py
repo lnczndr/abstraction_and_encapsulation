@@ -6,8 +6,12 @@
 # PSEUDOCODE
 
 # making car class
-class Car:
 # using constructor to assign values
+class Car:
+    def __init__(self, model_year, maker):
+        self.__model_year = model_year
+        self.__maker = maker
+        self.__speed = 0
 
 # defining accelerate method
 
