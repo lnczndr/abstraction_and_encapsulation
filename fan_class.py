@@ -6,8 +6,12 @@
 # PSEUDOCODE
 
 # making fan class
+class Fan:
 
 # assigning values to 3 constants (slow, medium, fast)
+    SLOW = 1
+    MEDIUM = 2
+    FAST = 3
 
 # specifying the radius of the fan
 
