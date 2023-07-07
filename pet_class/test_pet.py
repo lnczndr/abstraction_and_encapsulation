@@ -21,6 +21,8 @@ def main():
     age = input(str("What is the age of your pet? : "))
     user_pet.age_set(age)
 
-
-
-# displays the pet details via output
+    # displays the pet details via output
+    print("Your pet's name:", pet.name_get())
+    print("Your pet's kind:", pet.kind_get())
+    print("Your pet's age:", pet.age_get())
+    
