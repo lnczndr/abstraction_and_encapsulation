@@ -14,15 +14,23 @@ class Fan:
     FAST = 3
 
     # using constructor to assign values
-    def __init__ (self, speed = 1, radius = 5, color = Blue, on = False):
+    def __init__ (self, speed = 1, radius = 5, color = "Blue", on = False):
         self.__speed = speed
         self.__on = on
         self.__radius = radius
         self.__color = color
 
-# specifying the radius of the fan
+    # setting the speed of the fan
+    def speed_set (self, speed):
+        self.__speed = speed
 
-# specifying the color of the fan
+    # getting the speed of the fan
+    def speed_get (self):
+        return self.__speed
 
-# implementing getter and setter for four data fields
+    # specifying the radius of the fan
+
+    # specifying the color of the fan
+
+    # implementing getter and setter for four data fields
 
