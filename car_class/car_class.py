@@ -13,9 +13,11 @@ class Car:
         self.__maker = maker
         self.__speed = 0
 
-# defining accelerate method
+    # defining accelerate method
+    def accelerate(self):
+        self.__speed += 5
 
-# defining brake method
+    # defining brake method
 
-# defining get_speed method
+    # defining get_speed method
 
