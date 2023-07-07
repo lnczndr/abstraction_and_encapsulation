@@ -28,6 +28,10 @@ class Fan:
     def speed_get (self):
         return self.__speed
 
+    # specifying if the fan is on/off
+    def is_on(self):
+        return self.__on
+    
     # specifying the radius of the fan
 
     # specifying the color of the fan
