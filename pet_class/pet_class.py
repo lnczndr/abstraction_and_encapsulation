@@ -14,8 +14,11 @@ class Pet:
         self.__animal_kind=""
         self.__age= 0
 
-# specifying name of the pet
-# set name of the pet
+    # specifying name of the pet
+    # set name of the pet
+    def name_set(self, name):
+        self.__name = name
+        
 # get name of the pet
 
 # specifying the kind of  pet
