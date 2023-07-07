@@ -6,7 +6,7 @@
 # PSEUDOCODE
 
 # making car class
-
+class Car:
 # using constructor to assign values
 
 # defining accelerate method
