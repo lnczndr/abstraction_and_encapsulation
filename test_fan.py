@@ -5,13 +5,16 @@
 
 # PSEUDOCODE
 
-# making test_fan class
+# import class
+from fan_class import Fan
 
 # defining main method
-
-# assign values for fan 1
-
-# assign values for fan 2
+def main():
+    # assign values for fan 1
+    fan1 = Fan(Fan.FAST, 10, "yellow", True)
+    
+    # assign values for fan 2
+    fan2 = Fan(Fan.MEDIUM, 5, "blue", False)
 
 # output:
 # fan 1
